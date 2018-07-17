@@ -18,7 +18,7 @@ end
 %% set up HMM model
 
 no_states = 12; % the number of states depends a lot on the question at hand
-Hz = 1; % the frequency of the data
+Hz = 0.7143; % the frequency of the data (TR of 1.4s)
 stochastic_inference = 0; % set to 1 if a normal run is too computationally expensive (memory or time)
 N = length(T); % number of subjects
 
